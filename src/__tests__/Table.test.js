@@ -4,12 +4,17 @@ import Table from "../components/Table";
 
 describe("Table Component", () => {
   it("renders Table", () => {
-    let wrapped = shallow(<Table 
-      tableData={[{word: 'word'}]}
+    let wrapped = shallow(<Table
+      tableData={[{
+        word: "word",
+        nagari: "nagari",
+        description: "description",
+        category: "category"
+      }]}
       headingColumns={["Word", "Nagari", "Description", "Category"]}
       title="Sheetlabs"
-      />);
-      console.log('wrapped', wrapped);
-    expect(wrapped).toBeDefined();
+    />);
+
+    expect(wrapped.find('div').contains('Sheetlabs')).toBe(true);
   });
 });

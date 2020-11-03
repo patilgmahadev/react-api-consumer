@@ -5,6 +5,6 @@ import Header from "../components/Header";
 describe("Header Component", () => {
   it("renders Header", () => {
     let wrapped = shallow(<Header title="Test" />);
-    expect(wrapped).toBeDefined();
+    expect(wrapped.find("header h1").text()).toBe("Test");
   });
 });

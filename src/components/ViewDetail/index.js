@@ -19,7 +19,7 @@ const ViewDetail = props => {
     /**
      * If view detail page reload then it will go to home screen
      */
-    window.onbeforeunload = function () {
+    window.onbeforeunload = function() {
       backToHome();
     };
   });
@@ -39,7 +39,9 @@ const ViewDetail = props => {
           </div>
           <div className="card-container">
             <span className="label">Description: </span>
-            <div className="labelText">{get(detailData, "description", "")}</div>
+            <div className="labelText">
+              {get(detailData, "description", "")}
+            </div>
           </div>
           <div className="card-container">
             <span className="label">Category: </span>
