@@ -31,13 +31,17 @@ API URL > https://sheetlabs.com/IND/vs?category=medicine
 
 #Locally application will run with below URL
 
-React app should be running on http://localhost:8080/
+React app should be running on http://localhost:3000/
 
 #Used the latest React features
-lazy & Suspense
-useEffect
-useState
-memo
+
+`lazy & Suspense`
+
+`useEffect`
+
+`useState`
+
+`memo`
 
 #Screenshot of pages
 
