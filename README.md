@@ -33,6 +33,12 @@ API URL > https://sheetlabs.com/IND/vs?category=medicine
 
 React app should be running on http://localhost:8080/
 
+#Used the latest React features
+lazy & Suspense
+useEffect
+useState
+memo
+
 #Screenshot of pages
 
 ![List](https://github.com/patilgmahadev/react-api-consumer/blob/master/src/images/Home.png)
