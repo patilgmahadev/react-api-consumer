@@ -1,4 +1,4 @@
-import React, { Fragment, memo } from "react";
+import React, { Fragment, memo, useEffect } from "react";
 import { useHistory } from "react-router";
 import "./ViewDetail.scss";
 import get from "lodash/get";
@@ -14,6 +14,15 @@ const ViewDetail = props => {
   if (isEmpty(detailData)) {
     backToHome();
   }
+
+  useEffect(() => {
+    /**
+     * If view detail page reload then it will go to home screen
+     */
+    window.onbeforeunload = function () {
+      backToHome();
+    };
+  });
 
   return (
     <Fragment>

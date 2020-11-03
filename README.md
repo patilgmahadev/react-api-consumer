@@ -1,12 +1,13 @@
-# react-dynamic-table
+# react-api-consumer
 
 API consumer application using ReactJs with Unit Testing
 
-# Script command to run application
+# Below script command to run application
 
-Use the below commans to run application
+Use the below commands to run application
 
 Download the source code from github
+https://github.com/patilgmahadev/react-api-consumer
 
 Unzip the file
 
@@ -25,9 +26,11 @@ Open Terminal and go to the project directory
 `npm run test`
 
 #Used below URL for api to fetch data from backend
+
 API URL > https://sheetlabs.com/IND/vs?category=medicine
 
-#Locally application run with below URL
+#Locally application will run with below URL
+
 React app should be running on http://localhost:8080/
 
 #Screenshot of pages
