@@ -1,0 +1,1 @@
+export const API_URL = "https://sheetlabs.com/IND/vs?category=medicine";
